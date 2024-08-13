@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLplays UI</title>
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="robotics" content="none">
+  <meta name="msapplication-TileImage" content="../web/siteui/icons/siteicons/mstile-144x144.png">
+  <meta name="theme-color" content="#000000">
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://twitter.com/stralur?t=PnBFN33WtYPsd-fyT1f5hg&s=09">
+  <link rel="apple-touch-icon" sizes="180x180" href="../web/siteui/icons/siteicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../web/siteui/icons/siteicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../web/siteui/icons/siteicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../web/siteui/icons/siteicons/favicon-16x16.png">
+  <link rel="manifest" href="../web/siteui/icons/siteicons/site.webmanifest">
+  <link rel="mask-icon" href="../web/siteui/icons/siteicons/safari-pinned-tab.svg" color="#b20000">
+  <link rel="stylesheet" href="../../assets.stlrext/web/siteui/cds/bootstrap.min.css">
+  <link rel="stylesheet" href="../web/siteui/cds/style.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/icons/FontAwesome-Pro-6.3/css/all.css">
+ <style>
+   .episode-img{
+     height: 155px;
+     width: 270px;
+     border-radius: 3px;
+   }
+ </style>
+</head>
+
+<body class="w-100 h-100 container-100 black-background">
+<div class="position-fixed w-100 h-100 d-flex" style="filter: blur(50px); z-index: -1;">
+<div class="d-flex justify-content-between">
+<div class="fixed-top h-100 w-100 position-absolute justify-content-start">
+<div class="h-100 position-absolute mx-2"><svg width="1" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="1" /></svg></div>
+<div class="h-100 position-absolute mx-3"><svg width="2" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="green" stroke-width="2" /></svg></div>
+<div class="h-100 position-absolute mx-4"><svg width="4" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="4" /></svg></div>
+<div class="h-100 position-absolute mx-5"><svg width="15" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="15" /></svg></div>
+<div class="h-100 position-absolute mx-5 px-4"><svg width="6" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="6" /></svg></div>
+<div class="h-100 position-absolute px-5 mx-5"><svg width="20" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="20" /></svg></div>
+</div>
+</div>
+
+
+<div class="fixed-top position-absolute h-100 w-100 justify-content-center d-flex">
+  <div class="h-100 position-absolute mx-5"><svg width="6" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="6" /></svg></div>
+  <div class="h-100 d-none d-md-inline position-absolute mx-5"><svg width="100" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="blue" stroke-width="100" /></svg></div>
+  <div class="h-100 position-absolute d-none d-sm-inline mx-5"><svg width="50" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="red" stroke-width="50" /></svg></div>
+</div>
+
+
+
+
+<div class="fixed-top position-absolute h-100 w-100 justify-content-end d-flex">
+  <div class="h-100 position-absolute mx-3"><svg width="4" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="blue" stroke-width="4" /></svg></div>
+  <div class="h-100 position-absolute mx-4"><svg width="15" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="blue" stroke-width="15" /></svg></div>
+  <div class="h-100 position-absolute mx-5 px-4"><svg width="3" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="blue" stroke-width="3" /></svg></div>
+  <div class="h-100 position-absolute mx-5 px-5"><svg width="1" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="orange" stroke-width="1" /></svg></div>
+  <div class="h-100 position-absolute mx-5 px-5"><svg width="20" height="100%"><line x1="0" y1="0" x2="0" y2="100%"  stroke="blue" stroke-width="20" /></svg></div>
+</div>
+</div>
+
+
+<main>
+<div class="d-flex justify-content-between m-1">
+<i class="title-name xsm-title d-md-none"></i>
+<i class="title-name lg-title d-none d-md-block"></i>
+
+<button type="submit" id="buttonIcon" class="border-0 mx-4 mb-1"><i class="search-icon sm-search d-flex"></i></button>
+<style>
+.search-hide{
+    -webkit-animation: search 1.2s ease-in-out both;
+
+            animation: search 1.2s ease-in-out both;
+}
+  .search{
+  -webkit-animation: search 0.9s ease-in-out both;
+
+            animation: search 0.9s ease-in-out both;
+  }
+
+  .search-lg{
+  -webkit-animation: search 0.9s ease-in-out both;
+
+            animation: search 0.9s ease-in-out both;
+  }
+  
+ @-webkit-keyframes search {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes search {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+
+</style>
+
+<!--div class="d-none position-absolute mt-1 mt-md-2 search-container-1 d-flex align-items-center" style="right: 170px;">
+  <i class="search-hide-1 fa-light fa-times mx-2" style="font-size: 30px;"></i>
+  <form action="" role="search">
+  <input type="search" placeholder="Search" id="search" aria-label="Search" name="searchseries" class="form-control black-background border-light rounded-0 search d-md-none">
+  <input type="search" placeholder="Search" class="form-control form-control-sm black-background border-light rounded-0 search-lg d-sm-inline d-none">
+  </form>
+</div>
+<button title="Search Title" type="submit" id="buttonIcon1" class="border-0 mx-3 mb-2"><i class="search-icon-1 sm-search d-flex"></i></button-->
+
+
+
+
+
+
+<div class="d-none position-absolute mt-1 mt-md-2 search-container d-flex align-items-center" style="right: 108px;">
+  <i class="search-hide fa-light fa-times mx-2" style="font-size: 30px;"></i>
+  <form action="">
+  <input type="search" placeholder="Search" class="form-control black-background border-light rounded-0 search d-md-none">
+  <input type="search" placeholder="Search" class="form-control form-control-sm black-background border-light rounded-0 search-lg d-sm-inline d-none">
+  </form>
+</div>
+
+
+</div>
+<div class="mx-2 fw-bold text-center display-4">YOU</div>
+  <br>
+
+
+
+
+
+
+
+  <div class="mx-2 mt-1 lead fw-bold h6 mb-3">Trailers</div>
+  <div class="d-flex mt-1" style="overflow-x: auto; z-index: 1;">
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABRxdmGXXXN2Pt3jkpGpDX7HmMHyVjTSqPf8nARQKuPVyoxWxUUvP_UyoeOBHou2g60TExQOkcEjhUcpKNEt0vu5YdIGrI61vZFg7Z6hFp6CQJJO-lN205Ur_.jpg">
+  <span class="mx-2 fs-6 lead">Season 4 Trailer : You</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABRs5K38kOyejSEdDYBWhosOTEIEdMRi3jcDGuE1MDhviDsLjEJf6EVPatAhWd73WspekuIyGgsGWfQi9B7NKugPC0DNE2K6i5Ike.jpg">
+  <span class="mx-2 fs-6 lead">Season 3 Trailer : You</span>
+  </div>
+
+
+  </div>
+
+  <div class="mx-2 mt-1 lead fw-bold h6 mb-3">Season 1</div>
+  <div class="d-flex mt-1" style="overflow-x: auto; z-index: 1;">
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABbs2Zv-7orJVyGbR_vKWvxpJNfXNhFsBDih3sG7Yj1ru-MuuQpMpHwfJQpOvLQSui2RAwlpCSd5284emX2N1maz6fxvqRp94lAIusK4qo8EAZKQyZvZD8NWv.jpg">
+  <span class="mx-2 fs-6 lead">Episode 1</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABa1yw6w6xHisvp_3W0EswU--SSkI91hDjA7hiUlMuYHo1xo4AJfdbSWzaRACXDkTtm42ICz-hoJzrKJ-EyrWGBvW1aqYu2p-mlW4aSw3D5XQA-fcMR82zH1M.jpg">
+  <span class="mx-2 fs-6 lead">Episode 2</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABT4lySP258UO4kgyghOiEfZSFUnmTV64axKy3hjhhGE9Fddlx6xKqzNH_jE4tvHGVl3VBLCD6ldWf8aNtUXsWWaXTpPpMpFzaVN-lTHurHSb6iS7kJ2Eo0Yw.jpg">
+  <span class="mx-2 fs-6 lead">Episode 3</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABbVg0XVVihClGBdJVRRqc57eVdl5e9v-Ao6bf3WQ3YiY6RCvoa9o1u_kAuV47G0dNXUH08zX7fs1LwDIbaoENtPCdtBiekIhhuvUZts4NXhuCYiCzezJpT3-.jpg">
+  <span class="mx-2 fs-6 lead">Episode 4</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABbQ_BbQUPeJ2iPusM-jHT0J8kDY-n54p82P75A1LiL-m23eAKMNHnR2cD3HySYYAyh4PNWRqU6K1ZovK26Hq1QS4k71324nfOuPNJxKbTV3dyaLczATd25eB.jpg">
+  <span class="mx-2 fs-6 lead">Episode 5</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABa6iJ5qyPTN01oriI-5UVGSihXPqAoDY1m9V9QLFJlGni9UihBMhWy3h6lFzwyBfy4nhGPsFTSuxW6ErvmY4aOJhqArb9HWd-UJ6S9W5GK7UFCkRk4z7qSUr.jpg">
+  <span class="mx-2 fs-6 lead">Episode 6</span>
+  </div>
+  <div class="carousel">
+    <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABexYMAaKUqWmMiNUSoRDEReIpi1eK3n3xst0GVMDAc9p8FHAlDWGOLgXBAZEFjNhfFq5kNHF8M670xyZrFy3YNUIMf1gYiBpxwSCr88ztpdSMwRIIM8d_lGQ.jpg">
+    <span class="mx-2 fs-6 lead">Episode 7</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABfvtx5AM1D2_v06wh-EwqmZrl4SjXpJZsesePcVT3RpBLmDNNh1R30sgLZ4_1-H8fa6EP0MyKt7xRNKS-wi_yT0Czxi3r80YkJKXb1kqhtKUBl6Lz20RTa_3.jpg">
+  <span class="mx-2 fs-6 lead">Episode 8</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABdmuhOu7s4YdKE1rlyfcbS-H5Fc7hco70kBaECEmBzhMo3fiwkho2AOPMEBIuiX0L3X_arBiiClgropF0Z7bylLpZwPW5jZ9axYLpK1-Nkq7wdkGQ_EfHBS9.jpg">
+  <span class="mx-2 fs-6 lead">Episode 9</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABcr8XQt62YBC01mM-oVOpmPdMZbhx65RrP9YvubnD7ChM6stm94BEDJQfYXT0qWdVBSyNupLQGZ0Ev1Eh3my2Dhw-qVas8MLQkw68b2G2DC07yybezPAfAzb.jpg">
+  <span class="mx-2 fs-6 lead">Episode 10</span>
+  </div>
+  </div>
+
+  <div class="mx-2 mt-3 lead fw-bold h6 mb-3">Season 2</div>
+  <div class="d-flex mt-1" style="overflow-x: auto; z-index: 1;">
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABdNSzTkbzDyoXDvvhsEI30L0l40Ljt74kkaBseisoQAybORahJOuFBiy2ohL3F8wJNvJWTMywnGIS0oMpu7UiR38CFL2GcKZRhpKpuQ1wMUCPwBPTcq9N9YS.jpg">
+  <span class="mx-2 fs-6 lead">Episode 1</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABZzMcLqCXaoIIGdgzVatOnOPj9e3hxLqDkJRL0p5N4kjT8nKAOfcJ8tSDyX2s7JXtXVC2H8t0-nMXlelBH2ONI5YKJH94dcYFCDX1icBOaRgAAER5tVEk5lO.jpg">
+  <span class="mx-2 fs-6 lead">Episode 2</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABZHlmjE8OvdQ3YEFUO8WNTdSjI5DgYbPooREzAkUoSTHYrvxEtGeBdkNMW6Zcoxry6HF_g2lwUxu9w0h5ih6lV_3hkw1s_hOjIwof1r-KxSf1wHDxI2oxn-r.jpg">
+  <span class="mx-2 fs-6 lead">Episode 3</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABVe4DXaTL2ZN7u8xqn3m8B_gq9fV9bY7004GrlOYZ4PA22AfMBMRxprf8vyUkRtPmgVb8Bnbb7dOEMeIrC-lpFeamEfsaFN-fvhAUzDxjGDvCT5wL4Q6hLqP.jpg">
+  <span class="mx-2 fs-6 lead">Episode 4</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABYL2HmNWTek_v--cyCPi_HChibdlzTxNS0agLMrPx55LguExH8p5gXHuDbVbWUyfpqy19qle5-FMnIC6Oc0v1jZ_89LTj5MqfsoPFdFRAwtLMUiBpm9P90rG.jpg">
+  <span class="mx-2 fs-6 lead">Episode 5</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABYqlb_pE2LWp3XZqXN4IW3UYtxjXsKxzfsGGc1kstT-tcEMUn5HiplZmp6-YAmnLRmzgySmXSQOYpJm3gzm_pGCS3LGJqfMbZ_WtST2G_6KQGl1AMmv3fFW_.jpg">
+  <span class="mx-2 fs-6 lead">Episode 6</span>
+  </div>
+  <div class="carousel">
+    <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABXZv43iNdLp03Qni4aWaw_05JWKFh2SnrOAv9A4BO-jUawsiTnrzWP66Wf7XqZYnPz59IfO-3-tbYSui3VaxMBNQCuVexVptfhPXD1xwk_0LexCUaOhmZ6ML.jpg">
+    <span class="mx-2 fs-6 lead">Episode 7</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABZ4kCuZFHOHbGJhrLncGV1h4L-91Or3GrU9UN6BPIPNgNVt8BbtD1AArndyBq-ABSXYpiX2BXYNfmP_DPeqWtogSgjdx9YQ9DN4ighqyG2sHdHd688K9saS3.jpg">
+  <span class="mx-2 fs-6 lead">Episode 8</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABXZv43iNdLp03Qni4aWaw_05JWKFh2SnrOAv9A4BO-jUawsiTnrzWP66Wf7XqZYnPz59IfO-3-tbYSui3VaxMBNQCuVexVptfhPXD1xwk_0LexCUaOhmZ6ML.jpg">
+  <span class="mx-2 fs-6 lead">Episode 9</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABY1iDpZeyZDSMNyrlPxN5VnwzxjaMTMW1OQUY3oWi3eEcX0G-84JypcQqj-r2r9E5c22rXmIl25vvOrVgfGKJ8r2SPVixvcOJyNV6cmfSgEoPoPCO8md8NX-.jpg">
+  <span class="mx-2 fs-6 lead">Episode 10</span>
+  </div>
+</div>
+
+  <div class="mx-2 mt-3 lead fw-bold h6 mb-3">Season 3</div>
+  <div class="d-flex mt-1" style="overflow-x: auto; z-index: 1;">
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABU4HsNBfdqmU4jEsuV6q4uygcBw_9J5-giWEQPBPMCMIuovT1Pk97jdGpc4gtWktfLge8be6iM58qxwA0SDpXEclX_L5g4fly2axCVWg-Z4w-5yxfUzOW4_T.jpg">
+  <span class="mx-2 fs-6 lead">Episode 1</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABTItQRuvdzOzqBLwyoICdLcRY8G2TvWo1k5ITVJYicWd7W5Nh1tGa_JUCTcAqVyafo1h2Kqx0KAnxw7dEs1Uu8vET8waeYlfu9Kf5cJd0UmJVp1KvTTUk1hp.jpg">
+  <span class="mx-2 fs-6 lead">Episode 2</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABYb00IEQlU1t8TAy2NbHKibT-_0Wngb93OtWRTTSHJVtQm44U07BDLJ9jSTaz7BPbqKxXIpKBmgV8Qt2nsaQFJRAvkwZ8Yjajh8E-BwtAGoBe5ppvj8fhXzu.jpg">
+  <span class="mx-2 fs-6 lead">Episode 3</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABdt0x_YjiAZ80SHN9hDqg2R1r-89j3GzjRLuWOZ0f0uTskkpdiD9dn2uAoeFUhbWLMhqRVbUFRyuXp7bjm5zXwWq5-SYaxemrE_iPz6FkEVQkPh8C4z388Of.jpg">
+  <span class="mx-2 fs-6 lead">Episode 4</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABf9nXCj2hciZJ3gRZYs7GLLlGYSzDOpLDvHt7R2uSY-JtNuXPwmaF1NHSFaTjISOHoxWhHr4fSAHCxlXRwqPtMr5au33DBK0GQODn6l_5Fnr7t8eGgTXv8t9.jpg">
+  <span class="mx-2 fs-6 lead">Episode 5</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABSaGucMzxm16ZjD2QLzfd7Re3lbsOv-dIG01hYdkOOWJNbmVT9o7SrazO2D8wV9lYuwVjvTFz_ITniXC8mjQxkluZ-xgyGZuYvaOBGWvqPlG3f6wrZiTLISo.jpg">
+  <span class="mx-2 fs-6 lead">Episode 6</span>
+  </div>
+  <div class="carousel">
+    <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABZbRlFaJTJjpCjC5VPL1lTjJCDRcrCb4msXQlXa28ah0e0NNWgJ3p_ngEL44I_ahK1XqnQKKWV0Az_QjVNTCR5lOkbSmhFevAMUfBBQc_riE4NYVtQzpeDY0.jpg">
+    <span class="mx-2 fs-6 lead">Episode 7</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABT4J80tw4pyvCm40cY70MPwBatFaw-wV4aVsI8pWsUWGBXDiElsWrVT7Uf-7d26Zx5zJzPDhnaEr5ItKnRFWlD4OBlyFH5WTOHs3AeskpTsvJx4dXLeWr08T.jpg">
+  <span class="mx-2 fs-6 lead">Episode 8</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABTAFASvDdrxWXra9H3YfBnUiRTakwHR9ofN7_MstzRXh4oI_oYElDOZi5X63SykYJb1bPde8HSa6pv401UpasSwufS4FmahfFXLgovLloHS52XnIml-wRQ0s.jpg">
+  <span class="mx-2 fs-6 lead">Episode 9</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABYvzc5YAlSHFGlbdgFFKSIX9LWxpiBlC2h_fzJ3ewaMlrUlvzotc5--oKh-H_GE5r6DdDGDY-Eo8XtGeltPqUHjFPkIPY03iAhXHtaaIm0XNR0eAuVoS0Yl6.jpg">
+  <span class="mx-2 fs-6 lead">Episode 10</span>
+  </div>
+</div>
+
+  <div class="mx-2 mt-3 lead fw-bold h6 mb-3">Season 4</div>
+  <div class="d-flex mt-1" style="overflow-x: auto; z-index: 1;">
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABfegukYsCs15ZKQ_D2nrzw3pcRQ9M3N6hBX2a6-q11nHqmh-AzriwdXHanmWKkJrXpvf-RLowEJ-X1T-WdkaMYfUnGZJtbP37eL6wBHCQB7MfscMFgDbKRmo.jpg">
+  <span class="mx-2 fs-6 lead">Episode 1</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABZ-Q4iHAXf6Ha8vZQIIKVf0VUUjWfn5ba2JgZRGrRXs1mIgV5Wa4eJH1Wtes1ikTcc6zCtHqBf3hUHQmsx0dfeL1uldt9AxxAKHxOsIK9OySpKxyT0uCA0h1.jpg">
+  <span class="mx-2 fs-6 lead">Episode 2</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABafZQVGwK_BA3cqJRMOOVibJm4Lbs-ZuXENVVkE6aWgpq3GYTBmT9KmE6dQ3kT0hrJw2bFDKy_7aEHAsIg-zUNDOkPH751T5AOjbWr2T379bcTQtdkXezshE.jpg">
+  <span class="mx-2 fs-6 lead">Episode 3</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABTauEC7siSVP0x6NtmRnWWWWFFcc1hckO4JkWLloVXq5gZVGvhtWgUXSJG7guG7iyqt7p0chKfQf64QLAFsDK9c8Y79pnwlVmY1P8vDbVJiQcqWKn2dc1V5r.jpg">
+  <span class="mx-2 fs-6 lead">Episode 4</span>
+  </div>
+  <div class="carousel">
+  <img class="mx-2 episode-img" src="../web/dnm/v7/80200/AAAABQVlki_kafE0uiR78azbtFilLEZuIabgifnY-9Z8QkEQguIJ_Nyw7FYwLBg47SByuOLn9xYWXUcX3wEpMv7uTBeFHyUExElNffI5gQTqGc7Cp72LVBP41t8O.jpg">
+  <span class="mx-2 fs-6 lead">Episode 5</span>
+  </div>
+</div>
+
+
+
+<div class="mb-5"></div>
+</main>
+<script>
+  function add(number1, number2, callback){
+    let result = number1 + number2;
+    callback(result);
+  }
+  function logResult(result){
+    console.log(`The result is: ${result}`);
+  }
+  add(2, 3, logResult)
+</script>
+<script src="service-worker.js.js"></script>
+<script>
+const searchContainer = document.querySelector('.search-container');
+const searchContainer1 = document.querySelector('.search-container-1');
+
+const searchIcon = document.getElementById('buttonIcon');
+const searchIcon1 = document.getElementById('buttonIcon1');
+
+const searchIcon2 = document.querySelector('.search-icon');
+const searchIcon3 = document.querySelector('.search-icon-1');
+
+const searchHider = document.querySelector('.search-hide');
+const searchHider1 = document.querySelector('.search-hide-1');
+
+function showSearch(){
+  searchContainer.classList.toggle("d-none");
+  searchIcon2.classList.toggle("d-none")
+}
+function hideSearch(){
+  searchContainer.classList.toggle("d-none");
+  searchIcon2.classList.toggle("d-none");
+}
+
+function showSearch1(){
+  searchContainer1.classList.toggle("d-none");
+  searchIcon3.classList.toggle("d-none")
+}
+function hideSearch1(){
+  searchContainer1.classList.toggle("d-none");
+  searchIcon3.classList.toggle("d-none");
+}
+
+searchIcon.addEventListener('click', showSearch);
+searchHider.addEventListener('click', hideSearch);
+
+searchIcon1.addEventListener('click', showSearch1);
+searchHider1.addEventListener('click', hideSearch1);
+</script>
+</body>
+
+</html>

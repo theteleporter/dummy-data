@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body onload="checkCookie()">
+<input id="input" class="input" type="text" style="height: 30px; width: 180px;">
+<button onclick="checkCookie()" type="submit">Submitt</button>
+<p class="greeting" id="greeting"></p>
+<script>
+function getCookie(username){
+if (document.cookie.length>0){
+  username_start=document.cookie.indexOf(username + "=");
+  if (username_start!=-1){
+    username_start=username_start + username.length+1;
+    username_end=document.cookie.indexOf(";",username_start);
+    if (username_end==-1) username_end=document.cookie.length;
+    return unescape(document.cookie.substring(username_start,username_end));
+    }
+  }
+return "";
+}
+function setCookie(username,value,expiredays){
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=username+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
+}
+function checkCookie(){
+username=getCookie('username');
+if (username!=null && username!=""){
+  greetUser.innerHTML = "Hi, "+username;
+  }
+  else {
+  username = document.getElementById('input').value;
+  if (username!=null && username!=""){
+    setCookie('username',username,365);
+    }
+  }
+}
+const greetUser = document.getElementById('greeting');
+
+</script>
+</body>
+
+</html>

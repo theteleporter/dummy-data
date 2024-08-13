@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+  /*xsm*/
+}
+
+@media (max-width: 640px) {
+  /*sm*/
+}
+
+@media (max-width: 768px) {
+  /*md*/
+}
+
+@media (max-width: 992px) {
+  /*lg*/
+}
+
+@media (max-width: 1200px) {
+  /*xlg*/
+}
+
+@media (max-width: 1400px) {
+  /*xxlg*/
+}
+
+:root{
+  --stralur-red: #e50914;
+};

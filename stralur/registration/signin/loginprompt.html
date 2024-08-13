@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../assets.stlrext/web/siteui/icons/siteicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../assets.stlrext/web/siteui/icons/siteicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../../assets.stlrext/web/siteui/icons/siteicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets.stlrext/web/siteui/icons/siteicons/favicon-16x16.png">
+  <link rel="manifest" href="../../../assets.stlrext/web/siteui/icons/siteicons/site.webmanifest">
+  <link rel="mask-icon" href="../../../assets.stlrext/web/siteui/icons/siteicons/safari-pinned-tab.svg" color="#b20000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="robotics" content="none">
+  <meta name="msapplication-TileImage" content="../../../assets.stlrext/web/siteui/icons/siteicons/mstile-144x144.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/style.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/icons/FontAwesome-Pro-6.3/css/all.css">
+<title>Stralur | Choose profile</title>
+<style>
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+.cover-container {
+  max-width: 42em;
+}
+img {
+      width: 65px;
+      height: 65px;
+      border-radius: 3px;
+      margin: 0 3px 0 3px;
+    }
+    
+    img:hover {
+      width: 64px;
+      height: 64px;
+    }
+    
+    .profile {
+      color: #8C8A89;
+    }
+    
+    .profile:hover {
+      color: #ffffff;
+      font-weight: bolder;
+    }
+    
+    
+    body {
+      font-size: 13pt;
+    }
+    </style>
+  </head>
+  <body class="d-flex h-100 text-center grey-background">
+
+<div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+
+
+  <main class="mx-auto mb-auto mt-auto">
+  <div class="text-center fs-5">Choose profile</div>
+  <div class="d-flex cover-container">
+    <div class="profile">
+        <a href="../../browse/browse.html" class="regular homepage">
+          <picture>
+            <source media="(min-width: 768px)" srcset="../../../assets.stlrext/web/siteui/icons/profiles/profile1.svg" sizes="">
+          <img src="../../../assets.stlrext/web/siteui/icons/profiles/profile1.svg" alt="adult profile"></a>
+         </picture>
+         <br>
+        <small class="mt-1 fw-normal text">Regular</small>
+        </div>
+       <div class="profile">
+         <a href="../../browse/browsekids.html" class="kids">
+           <picture>
+        <source srcset="../../../assets.stlrext/web/siteui/icons/profiles/profile2.svg" media="(min-width: 768px)" sizes="">
+        <img src="../../../assets.stlrext/web/siteui/icons/profiles/profile3.svg" alt="kids picture">
+           </picture>
+        </a><br>
+        <small class="mt-1 fw-normal">Kids</small>
+        </div>
+  </div>
+  </main>
+</div>
+
+
+<script>
+function kids(){
+      const el = document.querySelector("a.kids");
+      el.href = "../../browse/browsekids.html";
+    }
+kids();
+
+
+(function () {
+          var UA = navigator.userAgent.toLowerCase();
+          if (UA.indexOf("android") > -1 || UA.indexOf("ipad") > -1 || UA.indexOf("iphone") > -1 || UA.indexOf("ipod") > -1 || UA.indexOf("windows phone") > -1) {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+          else if (UA.indexOf("chrome") > -1 || UA.indexOf("firefox") > -1)
+          {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.xl.html";
+            })();
+          }
+          else {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+        })();
+</script>
+
+<script src="../../../assets.stlrext/web/siteui/jpt/bootstrap.bundle.min.js"></script>
+  <script src="../../../assets.stlrext/web/siteui/jpt/main.js"></script>
+</body>
+</html>

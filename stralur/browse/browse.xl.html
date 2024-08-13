@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse - Stralur</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets.stlrext/web/siteui/icons/siteicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets.stlrext/web/siteui/icons/siteicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../assets.stlrext/web/siteui/icons/siteicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets.stlrext/web/siteui/icons/siteicons/favicon-16x16.png">
+  <link rel="manifest" href="../../assets.stlrext/web/siteui/icons/siteicons/site.webmanifest">
+  <link rel="mask-icon" href="../../assets.stlrext/web/siteui/icons/siteicons/safari-pinned-tab.svg" color="#b20000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="robotics" content="none">
+  <meta name="msapplication-TileImage" content="../../assets.stlrext/web/siteui/icons/siteicons/mstile-144x144.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="../../assets.stlrext/web/siteui/cds/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets.stlrext/web/siteui/cds/style.css">
+  <link rel="stylesheet" href="../../assets.stlrext/web/siteui/icons/FontAwesome-Pro-6.3/css/all.css">
+  <link rel="stylesheet" href="../../assets.stlrext/web/siteui/cds/browse.css">
+
+</head>
+
+<body class="mt-2">
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top align-items-center d-none d-md-inline" aria-label="Third navbar example" style="background: rgba(0, 0, 0, 0.75);">
+    <div class="container-fluid">
+  <i class="title-name mb-3 md-title"></i>
+        <button class="fa-solid fa-bars d-md-none" style="font-size: 27px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+              </button>
+
+      <div class="collapse navbar-collapse align-items-center" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-md-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link fw-bold homepage" aria-current="page" href="browse.xl.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../title/tvshows.html">Tv Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../title/films.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../categories/index.html">Categories</a>
+          </li>
+        </ul>
+<div class="align-items-center d-flex justify-content-between">
+<div class="d-none position-absolute search-container-1 d-flex align-items-center" style="right: 200px;">
+          <i class="search-hide-1 fa-light fa-times mx-2" style="font-size: 30px;"></i>
+          <form action="" role="search">
+            <input type="search" placeholder="Search" id="search" aria-label="Search" name="searchseries" class="form-control black-background border-light rounded-0 search d-sm-none">
+            <input type="search" placeholder="Search" class="form-control form-control-md black-background border-light rounded-0 search-lg d-sm-inline d-none">
+          </form>
+        </div>
+        <button title="Search Title" type="submit" id="buttonIcon1" class="border-0 mx-3 mb-2"><i class="search-icon-1 sm-search d-flex"></i></button>
+  <div class="mt-1 mx-2">
+  <div class="dropdown">
+    <div data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="../../res/images/profile/profile.jpg" class="mb-2 rounded-3 dropdown-toggle" height="40" width="40" alt="profile"><svg class="fa-rotate-180" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="#e50914" d="M13.942 8.713l5.01 7.515a1.6 1.6 0 01-1.331 2.488H7.6a1.6 1.6 0 01-1.331-2.488l5.01-7.515a1.6 1.6 0 012.663 0z"/>
+</svg></div>
+<ul class="dropdown-menu dropdown-menu-end black-background">
+  <li><a href="../account/account.html" class="dropdown-item text-current t">Account <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><a class="dropdown-item t text-current" href="../registration/signin/loginprompt.html">Manage Profiles <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><a class="dropdown-item t text-current" href="../help.center/help.member/help.html">Help Center <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><hr class="dropdown-divider"></li>
+  <li class="text-center"><a class="dropdown-item t text-current" href="../registration/signout/logoutprompt.html">Sign Out of Stralur <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+</ul>
+    </div>
+</div>
+</div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <nav class="navbar fixed-top navbar-dark d-md-none" aria-label="Offcanvas navbar large" style="background: rgba(0, 0, 0, 0.75);">
+    <div class="container-fluid align-items-center">
+      <div class="d-flex align-items-center">
+        <button class="fa-solid fa-bars mt-1" style="font-size: 30px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        </button>
+  <i class="title-name xsm-title"></i>
+      </div>
+<div class="d-none position-absolute mt-1 mt-md-2 search-container d-flex align-items-center" style="right: 108px;">
+        <i class="search-hide fa-light fa-times mx-2" style="font-size: 30px;"></i>
+        <form action="" role="search">
+          <input type="search" placeholder="Search" id="search" aria-label="Search" name="searchseries" class="form-control black-background border-light rounded-0 search  d-sm-none">
+          <input type="search" placeholder="Search" class="form-control form-control-sm black-background border-light rounded-0 search-lg d-sm-inline d-none">
+        </form>
+      </div>
+      <button title="Search Title" type="submit" id="buttonIcon" class="border-0 mx-3 mb-2"><i class="search-icon sm-search d-flex"></i></button>
+      <div class="offcanvas offcanvas-start black-background" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+  <div class="d-flex justify-content-between mt-2" style="background: #000000; height: 50px;">
+        <div class="mx-3 d-flex align-items-center">
+        <button class="fa-solid fa-bars mt-1" style="font-size: 30px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        </button>
+   <i class="title-name offcanvas-title xsm-title" id="offcanvasNavbar2Label"></i>
+ </div>
+          <button style="border: 0px; font-size: 26px; background: transparent; color: #000000; margin: 4px 12px;" type="button" class="fa-solid fa-times visually-hidden" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background: #000000;">
+<div class="d-flex w-75 justify-content-start">
+<a href="#"><img src="../../res/images/profile/profile.jpg" class="mb-2 rounded-1" height="50" width="50" alt="profile"></a>
+  <ul class="navbar-nav mx-3 mt-2">
+    <a class="text-white" href="../registration/signin/loginprompt.html">
+  <li class="nav-item"><span class="fw-bold h6 user-name" id="greeting">Regular</span>
+    <br><span class="fw-normal">Change Profile</span>
+    </li></a>
+    </ul>
+</div>
+   <ul class="navbar-nav justify-content-end">
+  <li class="nav-item">
+    <a class="a grey fw-bold h6" href="../account/account.html">Account</a></li>
+  <li class="nav-item nav-link">
+    <a class="a grey fw-bold h6" href="../help.center/help.member/help.html">Help Center</a></li>
+  <li class="nav-item mb-2">
+    <a class="a grey fw-bold h6" href="../registration/signout/logoutprompt.html">Sign Out of Stralur</a></li>
+<li><hr class="dropdown-divider"></li>
+            <li class="nav-item nav-link">
+              <a class="fw-bold grey a h6 navigator" aria-current="page" href="browse.html">Home</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="a grey fw-bold h6" href="../title/tvshows.html">Tv Shows</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../title/films.html">Movies</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/realitytv.html">Reality Tv</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/drama.html">Drama</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/action.html">Action</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/popular.html">Popular</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/anime.html">Anime</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/thrillers.html">Thrillers</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/sci-fi&fantasy.html">Sci-Fi</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../categories/horror.html">Horrors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="py-1 py-md-0"></div>
+  </div>
+    <div id="myCarousel" class="carousel slide carousel-fade img-fluid" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="20000">
+          <img class="top-image" src="../../assets.stlrext/web/dnm/v7/80200/you10.jpg">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+<img src="../../assets.stlrext/web/dnm/v7/80200/title.png" alt="You" style="margin-left: 5px; margin-bottom: 7px;" height="80" width="350">
+              <pre style="font-family: sans-serif; font-weight: bold;">NETFLIX  2018 (US)  45 MIN   CRIME, DRAMA   RETURNING SERIES   3 SEASONS</pre>
+              <p>A dangerously charming, intensely obsessive young man
+                goes to extreme measures to insert himself into the lives of
+                those he is transfixed by.</p>
+ <p>
+<a href="../title/title.cover/80200.html">
+<button type="button" class="baton-carousel rounded-0">WATCH NOW</button>
+</a>
+</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img class="top-image" src="../../res/images/1899/18991.jpg">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>1899</h1>
+              <pre style="font-family: sans-serif; font-weight: bold;">NETFLIX  2022 (DE)  50 MIN   DRAMA   RETURNING SERIES   1 SEASON</pre>
+              <p>Passengers on an immigrant ship traveling to the new
+                continent get caught in a mysterious riddle when they find a
+                second vessel adrift on the open sea.</p>
+<p>
+<a href="../title/covers/1899.cover.html">
+<button type="button" class="baton-carousel rounded-0">WATCH NOW</button>
+</a>
+</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img class="top-image" src="../../res/images/harry&meghan/harry&meghan1.jpg">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>HARRY & MEGHAN</h1>
+              <pre style="font-family: sans-serif; font-weight: bold;">NETFLIX  2022 (US)  58 MIN   DOCUMENTARY   ENDED   1 SEASON</pre>
+              <p>From their courtship to their exit from royal life, Harry and
+                Meghan share their complex journey in their own words in
+                this docuseries.</p>
+              <p>
+<a href="../title/covers/harry&meghan.cover.html">
+<button type="button" class="baton-carousel rounded-0">WATCH NOW</button>
+</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img class="top-image" src="../../res/images/wednesday/wednesday6.jpg">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>WEDNESDAY</h1>
+              <pre style="font-family: sans-serif; font-weight: bold;">NETFLIX  2022 (US)  42 MIN   FANTASY, SCIENCE-FICTION   RETURNING SERIES   1 SEASON</pre>
+              <p>Wednesday Addams is Sent to Nevermore Academy, a bizarre boarding school where she attempts to master her psychic powers, stop a monstrous killing spree of the town citizens and solve a supernatural mystery that affected her family 25 years ago - all while navigating her new relationships.</p>
+              <p>
+<a href="../title/covers/wednesday.cover.html">
+  <button type="button" class="baton-carousel rounded-0">WATCH NOW</button>
+</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img class="top-image" src="../../res/images/sexify/sexify2.jpg">
+              <p class="carousel-caption absolute text-start glow fw-bold">NEW EPISODES</p>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1 class="red-text">SEXIFY</h1>
+              <pre style="font-family: sans-serif; font-weight: bold;">NETFLIX   2021 (PL)  45 MIN   DRAMA, COMEDY   RETURNING SERIES   1 SEASON</pre>
+              <p>To build an innovative sex app and win a tech competition, a
+                sexually inexperienced student and her friends must explore
+                the daunting world of intimacy.</p>
+              <p>
+        <a href="../title/covers/sexify.cover.html">
+  <button type="button" class="baton-carousel rounded-0">WATCH NOW</button>
+</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  <a href="../../categories/popular.html" class="text-decoration-none t text-light fw-bold mx-4">
+    <h2 class="category">Popular <i class="fa-solid fa-angle-right w" style="font-size: 25px; color: red;"></i>
+ </a>
+  </h2>
+  <div class="mb-2"></div>
+<main class="cont">
+  <section class="scrolling-carrousel">
+    <div class="card" style="background-image: url('../../assets.stlrext/web/dnm/v7/80200/AAAABRxdmGXXXN2Pt3jkpGpDX7HmMHyVjTSqPf8nARQKuPVyoxWxUUvP_UyoeOBHou2g60TExQOkcEjhUcpKNEt0vu5YdIGrI61vZFg7Z6hFp6CQJJO-lN205Ur_.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 26px;">YOU</h2>
+          <p class="card-description"></p>
+        </div>
+         <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/title.cover/80200.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button>
+        </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" style="background-image: url('../../res/images/wednesday/wednesday6.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">WEDNESDAY</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/wednesday.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button>
+        </a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/warriornun/warriornun1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">WARRIOR NUN</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/warriornun.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/sexify/sexify1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">SEXIFY</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/sexify.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/elite/elite5.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">ELITE</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/elite.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+
+
+<div class="card" style="background-image: url('../../res/images/kaleidoscope/kaleidoscope1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">KALEIDOSCOPE</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/kaleidoscope.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/minionsriseofgru/minionsriseofgru2.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 26px;">MINIONS: RISE OF GRU</h2>
+          <p class="card-description"></p>
+        </div>
+        <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/covers/minionsriseofgru.cover.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="background-image: url('../../res/images/moneyheist/moneyheist1.jpg');">
+       <div class="card-details">
+         <div class="card-header">
+           <h2 class="card-title" style="font-size: 26px;">MONEY HEIST</h2>
+           <p class="card-description"></p>
+         </div>
+         <div class="card-rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+         </div>
+         <div class="card-call-to-action">
+        <a href="../title/covers/moneyheist.cover.html">
+           <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+         </div>
+       </div>
+     </div>   
+    <div class="card" style="background-image: url('../../res/images/13reasonswhy/13reasonswhy1.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 26px;">13 REASONS WHY</h2>
+          <p class="card-description"></p>
+        </div>
+        <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/covers/13reasonswhy.cover.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+        </div>
+      </div>
+    </div>    
+    <div class="card" style="background-image: url('../../res/images/1899/18991.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">1899</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/1899.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+  </section>
+</main>
+  <a href="../../categories/new.html" class="text-decoration-none t text-light fw-bold mx-4">
+    <h2 class="category">Recently added <i class="fa-solid fa-angle-right w" style="font-size: 25px; color: red;"></i>
+ </a>
+  </h2>
+<div class="mb-2"></div>
+<main class="cont">
+  <section class="scrolling-carrousel">
+    <div class="card" style="background-image: url('../../res/images/toohottohandle/toohottohandle2.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 20px;">TOO HOT TO HANDLE</h2>
+          <p class="card-description"></p>
+        </div>
+         <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/covers/toohottohandle.cover.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" style="background-image: url('../../res/images/biohackers/biohackers1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;"></h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/biohackers.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/yellowstone/yellowstone1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;"></h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/yellowstone.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/squidgame/squidgame3.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;"></h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/squidgame.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/pennyworth/pennyworth3.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;"></h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/pennyworth.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+
+
+<div class="card" style="background-image: url('../../res/images/rickyandmorty/rickyandmorty1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;"></h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/rickyandmorty.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card" style="background-image: url('../../res/images/strangerthings/strangerthings1.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 26px;"></h2>
+          <p class="card-description"></p>
+        </div>
+        <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/covers/strangerthings.cover.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="background-image: url('../../res/images/lupin/lupin1.jpg');">
+       <div class="card-details">
+         <div class="card-header">
+           <h2 class="card-title" style="font-size: 26px;"></h2>
+           <p class="card-description"></p>
+         </div>
+         <div class="card-rating">
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="far fa-star"></i>
+         </div>
+         <div class="card-call-to-action">
+        <a href="../title/covers/lupin.cover.html">
+           <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+         </div>
+       </div>
+     </div>   
+    <div class="card" style="background-image: url('../../res/images/papergirls/papergirls1.jpg');">
+      <div class="card-details">
+        <div class="card-header">
+          <h2 class="card-title" style="font-size: 26px;"></h2>
+          <p class="card-description"></p>
+        </div>
+        <div class="card-rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="card-call-to-action">
+        <a href="../title/covers/papergirls.cover.html">
+          <button class="card-button text-light fw-bold rounded-1">Watch</button></a>
+        </div>
+      </div>
+    </div>    
+    <div class="card" style="background-image: url('../../res/images/theendgame/theendgame1.jpg');">
+          <div class="card-details">
+            <div class="card-header">
+              <h2 class="card-title" style="font-size: 26px;">THE ENDGAME</h2>
+              <p class="card-description"></p>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="card-call-to-action">
+        <a href="../title/covers/theendgame.cover.html">
+              <button class="card-button text-light fw-bold rounded-1">Watch</button>
+        </a>
+            </div>
+          </div>
+        </div>
+  </section>
+</main>
+<!-- partial -->
+
+  <footer class="py-5">
+    <div class="row container">
+    <div class="d-flex flex-column flex-sm-row">
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a href="https://twitter.com/stralur?t=PnBFN33WtYPsd-fyT1f5hg&s=09" target="_blank" class="link-dark">
+                  <i class="socials fab fa-twitter twitter"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a href="https://instagram.com/stralurinc?igshid=YmMyMTA2M2Y=" target="_blank" class="link-dark">
+                  <i class="socials fab fa-instagram instagram"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a href="https://www.youtube.com/@stralur" class="link-dark" target="_blank">
+                  <i class="socials fab fa-youtube youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+      <div class="col-6 col-md-3 text-start">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../help.center/legal.notices.member/terms.of.service.html" class="p-0 lined-link">Terms Of Service</a></li>
+          <li class="nav-item mb-2"><a href="../help.center/legal.notices.member/about.html" class="p-0 lined-link">Corporate Information</a></li>
+          <li class="nav-item mb-2"><a href="../help.center/legal.notices.member/privacy.html" class="p-0 lined-link">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 text-start">
+<ul class="nav flex-column">
+   <li class="nav-item mb-2"><a href="../help.center/help.member/help.html" class="p-0 lined-link">Help Center</a></li>
+<li class="nav-item mb-2"><a href="../help.center/help.member/faqs.html" class="p-0 lined-link">FAQ's</a></li>
+<li class="nav-item mb-2"><a href="../help.center/help.member/jobs.html" class="p-0 lined-link">Jobs</a></li>
+</ul>
+</div>
+
+
+
+      <div class="col-6 col-md-3 text-start">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../help.center/legal.notices.member/policy.html" class="p-0 lined-link">Data Policy</a></li>
+          <li class="nav-item mb-2"><a href="../title/tvshows.html" class="p-0 lined-link">Tv Shows</a></li>
+          <li class="nav-item mb-2"><a href="../categories/index.html" class="p-0 lined-link">categories</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 text-start">
+  <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../help.center/help.member/contactus.html" class="p-0 lined-link">Contact Us</a></li>
+   <li class="nav-item mb-2"><a href="../help.center/help.member/reportbugs.html" class="p-0 lined-link">Report Bugs</a></li>
+<li class="nav-item mb-2"><a href="mailto:m6253272@gmail.com@?subject=Feedback&body=Message" target="_blank" class="p-0 lined-link">Feedback</a></li>
+     </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <a href="#" style="bottom: 5px; right: 15px; position: fixed; z-index: 2;"><i class="fa-solid fa-sort-up" style="color: red; font-size: 40px; padding: 0 5px 0 5px"></i></a>
+
+
+
+
+
+
+
+<script>
+   (function () {
+          var UA = navigator.userAgent.toLowerCase();
+          if (UA.indexOf("android") > -1 || UA.indexOf("ipad") > -1 || UA.indexOf("iphone") > -1 || UA.indexOf("ipod") > -1 || UA.indexOf("windows phone") > -1) {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "browse.html";
+            })();
+          }
+          else if (UA.indexOf("chrome") > -1 || UA.indexOf("firefox") > -1)
+          {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "browse.xl.html";
+            })();
+          }
+          else {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "browse.html";
+            })();
+          }
+        })();
+
+
+ (function () {
+          var UA = navigator.userAgent.toLowerCase();
+          if (UA.indexOf("android") > -1 || UA.indexOf("ipad") > -1 || UA.indexOf("iphone") > -1 || UA.indexOf("ipod") > -1 || UA.indexOf("windows phone") > -1) {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "browse.html";
+            })();
+          }
+          else if (UA.indexOf("chrome") > -1 || UA.indexOf("firefox") > -1)
+          {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "browse.xl.html";
+            })();
+          }
+          else {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "browse.html";
+            })();
+          }
+        })();
+
+</script>
+<script src="../../assets.stlrext/web/siteui/jpt/bootstrap.bundle.min.js"></script>
+  <script src="../../assets.stlrext/web/siteui/jpt/main.js"></script>
+</body>
+
+</html>

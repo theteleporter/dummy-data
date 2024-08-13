@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Watch You | Stralur Official Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="robotics" content="none">
+  <meta name="msapplication-TileImage" content="../../../assets.stlrext/web/siteui/icons/siteicons/mstile-144x144.png">
+  <meta name="theme-color" content="#000000">
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="Watch movies, movies online, watch TV, TV online, TV shows online, watch TV shows, stream movies, stream tv, instant streaming, watch online, movies, watch movies, watch TV online, download, full length movies, offline movies">
+  <meta name="description" content="A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by. Watch trailers &amp; learn more.">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <meta property="og:title" content="Watch You | Stralur Official Site">
+  <meta property="og:description" content="A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.">
+  <meta property="og:url" content="watch.you.stralur.official.site.html" id="meta-url">
+  <meta property="og:image" content="../../../assets.stlrext/web/dnm/v7/80200/AAAABRxdmGXXXN2Pt3jkpGpDX7HmMHyVjTSqPf8nARQKuPVyoxWxUUvP_UyoeOBHou2g60TExQOkcEjhUcpKNEt0vu5YdIGrI61vZFg7Z6hFp6CQJJO-lN205Ur_.jpg">
+  <meta property="og:video" content="../../../assets.stlrext/web/dnm/v7/80200/youseason1trailer.mp4">
+  <meta property="og:video:secure_url" content="../../../assets.stlrext/web/dnm/v7/80200/youseason4trailer.mp4">
+  <meta property="og:video:type" content="video/mp4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="https://twitter.com/stralur?t=PnBFN33WtYPsd-fyT1f5hg&s=09">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../assets.stlrext/web/siteui/icons/siteicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../assets.stlrext/web/siteui/icons/siteicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../../../assets.stlrext/web/siteui/icons/siteicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../assets.stlrext/web/siteui/icons/siteicons/favicon-16x16.png">
+  <link rel="manifest" href="../../../assets.stlrext/web/siteui/icons/siteicons/site.webmanifest">
+  <link rel="mask-icon" href="../../../assets.stlrext/web/siteui/icons/siteicons/safari-pinned-tab.svg" color="#b20000">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/style.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/main.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/cds/title.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/siteui/icons/FontAwesome-Pro-6.3/css/all.css">
+  <link rel="stylesheet" href="../../../assets.stlrext/web/SLplayer/style.css">
+
+</head>
+<body class="black-background">
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top align-items-center d-none d-md-inline" aria-label="Third navbar example" style="background: rgba(0, 0, 0, 0.75);">
+    <div class="container-fluid">
+  <i class="title-name mb-3 md-title"></i>
+        <button class="fa-solid fa-bars d-md-none" style="font-size: 27px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+              </button>
+
+      <div class="collapse navbar-collapse align-items-center" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-md-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link fw-bold homepage" aria-current="page" href="../../browse/browse.xl.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../tvshows.html">Tv Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../films.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold" href="../../categories/index.html">Categories</a>
+          </li>
+        </ul>
+<div class="align-items-center d-flex justify-content-between">
+<div class="d-none position-absolute search-container-1 d-flex align-items-center" style="right: 200px;">
+          <i class="search-hide-1 fa-light fa-times mx-2" style="font-size: 30px;"></i>
+          <form action="" role="search">
+            <input type="search" placeholder="Search" id="search" aria-label="Search" name="searchseries" class="form-control black-background border-light rounded-0 search d-sm-none">
+            <input type="search" placeholder="Search" class="form-control form-control-md black-background border-light rounded-0 search-lg d-sm-inline d-none">
+          </form>
+        </div>
+        <button title="Search Title" type="submit" id="buttonIcon1" class="border-0 mx-3 mb-2"><i class="search-icon-1 sm-search d-flex"></i></button>
+  <div class="mt-1 mx-2">
+  <div class="dropdown">
+    <div data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="../../../res/images/profile/profile.jpg" class="mb-2 rounded-3 dropdown-toggle" height="40" width="40" alt="profile"><svg class="fa-rotate-180" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path fill="#e50914" d="M13.942 8.713l5.01 7.515a1.6 1.6 0 01-1.331 2.488H7.6a1.6 1.6 0 01-1.331-2.488l5.01-7.515a1.6 1.6 0 012.663 0z"/>
+</svg></div>
+<ul class="dropdown-menu dropdown-menu-end black-background">
+  <li><a href="../../account/account.html" class="dropdown-item text-current t">Account <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><a class="dropdown-item t text-current" href="../../registration/signin/loginprompt.html">Manage Profiles <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><a class="dropdown-item t text-current" href="../../help.center/help.member/help.html">Help Center <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+  <li><hr class="dropdown-divider"></li>
+  <li class="text-center"><a class="dropdown-item t text-current" href="../../registration/signout/logoutprompt.html">Sign Out of Stralur <i class="fa-solid fa-chevron-right red-text w"></i></a></li>
+</ul>
+    </div>
+</div>
+</div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <nav class="navbar fixed-top navbar-dark d-md-none" aria-label="Offcanvas navbar large" style="background: rgba(0, 0, 0, 0.75);">
+    <div class="container-fluid align-items-center">
+      <div class="d-flex align-items-center">
+        <button class="fa-solid fa-bars mt-1" style="font-size: 30px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        </button>
+  <i class="title-name xsm-title"></i>
+      </div>
+<div class="d-none position-absolute mt-1 mt-md-2 search-container d-flex align-items-center" style="right: 108px;">
+        <i class="search-hide fa-light fa-times mx-2" style="font-size: 30px;"></i>
+        <form action="" role="search">
+          <input type="search" placeholder="Search" id="search" aria-label="Search" name="searchseries" class="form-control black-background border-light rounded-0 search d-sm-none">
+          <input type="search" placeholder="Search" class="form-control form-control-sm black-background border-light rounded-0 search-lg d-sm-inline d-none">
+        </form>
+      </div>
+      <button title="Search Title" type="submit" id="buttonIcon" class="border-0 mx-3 mb-2"><i class="search-icon sm-search d-flex"></i></button>
+      <div class="offcanvas offcanvas-start black-background" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+  <div class="d-flex justify-content-between mt-2" style="background: #000000; height: 50px;">
+        <div class="mx-3 d-flex align-items-center">
+        <button class="fa-solid fa-bars mt-1" style="font-size: 30px; border: 0px; background: transparent; color: #ffffff;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+        </button>
+   <i class="title-name offcanvas-title xsm-title" id="offcanvasNavbar2Label"></i>
+ </div>
+          <button style="border: 0px; font-size: 26px; background: transparent; color: #000000; margin: 4px 12px;" type="button" class="fa-solid fa-times visually-hidden" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background: #000000;">
+<div class="d-flex w-75 justify-content-start">
+<a href="#"><img src="../../../res/images/profile/profile.jpg" class="mb-2 rounded-1" height="50" width="50" alt="profile"></a>
+  <ul class="navbar-nav mx-3 mt-2">
+    <a class="text-white" href="../../registration/signin/loginprompt.html">
+  <li class="nav-item"><span class="fw-bold h6 user-name" id="greeting">Regular</span>
+    <br><span class="fw-normal">Change Profile</span>
+    </li></a>
+    </ul>
+</div>
+          <ul class="navbar-nav justify-content-end">
+  <li class="nav-item">
+    <a class="a grey fw-bold h6" href="../../account/account.html">Account</a></li>
+  <li class="nav-item nav-link">
+    <a class="a grey fw-bold h6" href="../../help.center/help.member/help.html">Help Center</a></li>
+  <li class="nav-item mb-2">
+    <a class="a grey fw-bold h6" href="../../registration/signout/logoutprompt.html">Sign Out of Stralur</a></li>
+<li><hr class="dropdown-divider"></li>
+            <li class="nav-item nav-link">
+              <a class="fw-bold grey a h6 navigator" aria-current="page" href="../../browse/browse.html">Home</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="a grey fw-bold h6" href="../tvshows.html">Tv Shows</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../films.html">Movies</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/realitytv.html">Reality Tv</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/drama.html">Drama</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/action.html">Action</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/popular.html">Popular</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/anime.html">Anime</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/thrillers.html">Thrillers</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/sci-fi&fantasy.html">Sci-Fi</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="grey a fw-bold h6" href="../../categories/horror.html">Horrors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<main>
+<div class="modal fade" id="SLplayer" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-body">
+<div class="SL-container">
+    <div class="video-container carousel" id="video-container">
+<div class="d-flex justify-content-between w-100 align-items-center position-absolute" style="top: -40px;">
+<span class="h5"><svg width="3.5" height="21"><line x1="0" y1="0" x2="0" y2="200"  stroke="red" stroke-width="3.5" /></svg> Season 2 Part 2 Trailer: You</span>
+  <button data-bs-dismiss="modal" aria-label="Close" class="stop border-0 text-center align-items-center" style="background: none; margin-bottom: 11px;"><svg width="18" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.29297 3.70706L10.5859 12L2.29297 20.2928L3.70718 21.7071L12.0001 13.4142L20.293 21.7071L21.7072 20.2928L13.4143 12L21.7072 3.70706L20.293 2.29285L12.0001 10.5857L3.70718 2.29285L2.29297 3.70706Z" fill="#fff"></path></svg></button></div>
+    <div class="load">
+      <div class="top-50 start-50 translate-middle position-absolute">
+        <div class="loading2" style="height: 6em; width: 6em;"></div>
+      </div>
+    </div>
+<div class="timed-out rated-2 lead fw-normal align-text-center"><svg width="1" height="24"><line x1="0" y1="0" x2="0" y2="200" stroke="red" stroke-width="3" /></svg> RATED 18+</div>
+
+      <div class="playback-animation" id="playback-animation">
+        <svg class="playback-icons controls-svg">
+          <use class="hidden" href="#play-icon"></use>
+          <use href="#pause"></use>
+        </svg>
+      </div>
+
+
+
+<div class="subtitle-audio-container">
+  <div style="display: flex; padding: 10px; justify-content: space-around;">
+    <span>Audio</span><span>Subtitles</span>
+  </div>
+  <hr>
+  <div style="display: flex; padding: 10px; justify-content: space-around;">
+    <span>English</span><span>Malay</span>
+  </div>
+  <div style="display: flex; padding: 10px; justify-content: space-around;">
+    <span>Spanish</span><span>Indonesian</span>
+  </div>
+  <div style="display: flex; padding: 10px; justify-content: space-around;">
+    <span>Malay</span><span>English SD</span>
+  </div>
+  <div style="display: flex; padding: 10px; justify-content: space-around;">
+    <span>Forced English</span><span>Vietnamese</span>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <video class="video" id="video" preload="metadata" poster="../../../assets.stlrext/web/dnm/v7/80200/AAAABbs2Zv-7orJVyGbR_vKWvxpJNfXNhFsBDih3sG7Yj1ru-MuuQpMpHwfJQpOvLQSui2RAwlpCSd5284emX2N1maz6fxvqRp94lAIusK4qo8EAZKQyZvZD8NWv.jpg">
+ <source src="../../../assets.stlrext/web/dnm/v7/80200/youseason2trailer2.mp4"></source>
+  </video>
+<div class="video-controls hidden" id="video-controls">
+<div class="video-progress">
+<progress id="progress-bar" value="0" min="0"></progress>
+<input class="seek" id="seek" value="0" min="0" type="range" step="1">
+          <div class="seek-tooltip" id="seek-tooltip">00:00</div>
+</div>
+<div class="time">
+<time id="time-elapsed" style="color: #fff;">00:00</time>
+</div>
+
+
+
+
+        <div class="bottom-controls">
+          <div class="left-controls">
+            <button class="SLbutton" id="play">
+              <svg class="playback-icons controls-svg">
+                <use href="#play-icon"></use>
+                <use class="hidden" href="#pause"></use>
+              </svg>
+            </button>
+
+            <div class="volume-controls">
+              <button class="volume-button SLbutton" id="volume-button">
+                <svg class="controls-svg">
+                  <use class="hidden" href="#volume-mute"></use>
+                  <use class="hidden" href="#volume-low"></use>
+                  <use class="hidden" href="#volume-medium"></use>
+                  <use href="#volume-high"></use>
+                </svg>
+              </button>
+
+              <input class="volume" id="volume" value="1"
+              data-mute="0.5" type="range" max="1" min="0" step="0.01">
+            </div>
+
+          </div>
+
+<div class="right-controls">
+<button class="subtitle-audio-button SLbutton" id="subtitle-audio-button">
+  <svg class="controls-svg">
+    <use href="#subtitle-audio">
+    </use>
+  </svg>
+</button>
+
+
+
+
+
+            <button class="fullscreen-button SLbutton" id="fullscreen-button">
+              <svg class="fullscreen-icons controls-svg">
+                <use href="#fullscreen"></use>
+                <use class="hidden" href="#fullscreen-exit"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <svg style="display: none;">
+    <defs>
+      <symbol id="pause" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3C4.22386 3 4 3.22386 4 3.5V20.5C4 20.7761 4.22386 21 4.5 21H9.5C9.77614 21 10 20.7761 10 20.5V3.5C10 3.22386 9.77614 3 9.5 3H4.5ZM14.5 3C14.2239 3 14 3.22386 14 3.5V20.5C14 20.7761 14.2239 21 14.5 21H19.5C19.7761 21 20 20.7761 20 20.5V3.5C20 3.22386 19.7761 3 19.5 3H14.5Z" fill="#ffffff"></path>
+      </symbol>
+
+      <symbol id="play-icon" viewBox="0 0 24 24">
+<path d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z" fill="#ffffff"></path>
+      </symbol>
+
+      <symbol id="volume-high" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 8.28699 22.525 4.72603 19.8995 2.10052L18.4853 3.51474C20.7357 5.76517 22 8.81742 22 12C22 15.1826 20.7357 18.2349 18.4853 20.4853L19.8995 21.8995C22.525 19.274 24 15.7131 24 12ZM11 4.00001C11 3.59555 10.7564 3.23092 10.3827 3.07613C10.009 2.92135 9.57889 3.00691 9.29289 3.29291L4.58579 8.00001H1C0.447715 8.00001 0 8.44773 0 9.00001V15C0 15.5523 0.447715 16 1 16H4.58579L9.29289 20.7071C9.57889 20.9931 10.009 21.0787 10.3827 20.9239C10.7564 20.7691 11 20.4045 11 20V4.00001ZM5.70711 9.70712L9 6.41423V17.5858L5.70711 14.2929L5.41421 14H5H2V10H5H5.41421L5.70711 9.70712ZM16.0001 12C16.0001 10.4087 15.368 8.8826 14.2428 7.75739L12.8285 9.1716C13.5787 9.92174 14.0001 10.9392 14.0001 12C14.0001 13.0609 13.5787 14.0783 12.8285 14.8285L14.2428 16.2427C15.368 15.1174 16.0001 13.5913 16.0001 12ZM17.0709 4.92896C18.9462 6.80432 19.9998 9.34786 19.9998 12C19.9998 14.6522 18.9462 17.1957 17.0709 19.0711L15.6567 17.6569C17.157 16.1566 17.9998 14.1218 17.9998 12C17.9998 9.87829 17.157 7.84346 15.6567 6.34317L17.0709 4.92896Z" fill="#ffffff"></path>
+      </symbol>
+
+      <symbol id="volume-medium" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 4.00003C11 3.59557 10.7564 3.23093 10.3827 3.07615C10.009 2.92137 9.57889 3.00692 9.29289 3.29292L4.58579 8.00003H1C0.447715 8.00003 0 8.44774 0 9.00003V15C0 15.5523 0.447715 16 1 16H4.58579L9.29289 20.7071C9.57889 20.9931 10.009 21.0787 10.3827 20.9239C10.7564 20.7691 11 20.4045 11 20V4.00003ZM5.70711 9.70714L9 6.41424V17.5858L5.70711 14.2929L5.41421 14H5H2V10H5H5.41421L5.70711 9.70714ZM17.0709 4.92897C18.9462 6.80433 19.9998 9.34787 19.9998 12C19.9998 14.6522 18.9462 17.1957 17.0709 19.0711L15.6567 17.6569C17.157 16.1566 17.9998 14.1218 17.9998 12C17.9998 9.87831 17.157 7.84347 15.6567 6.34318L17.0709 4.92897ZM14.2428 7.7574C15.368 8.88262 16.0001 10.4087 16.0001 12C16.0001 13.5913 15.368 15.1175 14.2428 16.2427L12.8285 14.8285C13.5787 14.0783 14.0001 13.0609 14.0001 12C14.0001 10.9392 13.5787 9.92176 12.8285 9.17161L14.2428 7.7574Z" fill="#fff"></path>
+      </symbol>
+
+      <symbol id="volume-low" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 4C11 3.59554 10.7564 3.2309 10.3827 3.07612C10.009 2.92134 9.57889 3.00689 9.29289 3.29289L4.58579 8H1C0.447715 8 0 8.44771 0 9V15C0 15.5523 0.447715 16 1 16H4.58579L9.29289 20.7071C9.57889 20.9931 10.009 21.0787 10.3827 20.9239C10.7564 20.7691 11 20.4045 11 20V4ZM5.70711 9.70711L9 6.41421V17.5858L5.70711 14.2929L5.41421 14H5H2V10H5H5.41421L5.70711 9.70711ZM16.0001 12C16.0001 10.4087 15.368 8.88259 14.2428 7.75737L12.8285 9.17158C13.5787 9.92173 14.0001 10.9391 14.0001 12C14.0001 13.0609 13.5787 14.0783 12.8285 14.8284L14.2428 16.2427C15.368 15.1174 16.0001 13.5913 16.0001 12Z" fill="#fff"></path>
+      </symbol>
+
+      <symbol id="volume-mute" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 4.00003C11 3.59557 10.7564 3.23093 10.3827 3.07615C10.009 2.92137 9.57889 3.00692 9.29289 3.29292L4.58579 8.00003H1C0.447715 8.00003 0 8.44774 0 9.00003V15C0 15.5523 0.447715 16 1 16H4.58579L9.29289 20.7071C9.57889 20.9931 10.009 21.0787 10.3827 20.9239C10.7564 20.7691 11 20.4045 11 20V4.00003ZM5.70711 9.70714L9 6.41424V17.5858L5.70711 14.2929L5.41421 14H5H2V10H5H5.41421L5.70711 9.70714ZM15.2929 9.70714L17.5858 12L15.2929 14.2929L16.7071 15.7071L19 13.4142L21.2929 15.7071L22.7071 14.2929L20.4142 12L22.7071 9.70714L21.2929 8.29292L19 10.5858L16.7071 8.29292L15.2929 9.70714Z" fill="#ffffff"></path>
+      </symbol>
+<symbol id="subtitle-audio" viewBox="0  0 24 24">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4C0 3.44772 0.447715 3 1 3H23C23.5523 3 24 3.44772 24 4V16C24 16.5523 23.5523 17 23 17H19V20C19 20.3688 18.797 20.7077 18.4719 20.8817C18.1467 21.0557 17.7522 21.0366 17.4453 20.8321L11.6972 17H1C0.447715 17 0 16.5523 0 16V4ZM2 5V15H12H12.3028L12.5547 15.1679L17 18.1315V16V15H18H22V5H2ZM10 9H4V7H10V9ZM20 11H14V13H20V11ZM12 13H4V11H12V13ZM20 7H12V9H20V7Z" fill="#ffffff"></path>
+</symbol>
+      <symbol id="fullscreen" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 5C0 3.89543 0.895431 3 2 3H9V5H2V9H0V5ZM22 5H15V3H22C23.1046 3 24 3.89543 24 5V9H22V5ZM2 15V19H9V21H2C0.895431 21 0 20.1046 0 19V15H2ZM22 19V15H24V19C24 20.1046 23.1046 21 22 21H15V19H22Z" fill="#ffffff"></path>
+      </symbol>
+
+
+
+      <symbol id="fullscreen-exit" viewBox="0 0 24 24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 8H19V3H17V9V10H18H24V8ZM0 16H5V21H7V15V14H6H0V16ZM7 10H6H0V8H5V3H7V9V10ZM19 21V16H24V14H18H17V15V21H19Z" fill="#ffffff"></path>
+      </symbol>
+
+      <symbol id="pip" viewBox="0 0 24 24">
+      <path d="M21 19.031v-14.063h-18v14.063h18zM23.016 18.984q0 0.797-0.609 1.406t-1.406 0.609h-18q-0.797 0-1.406-0.609t-0.609-1.406v-14.016q0-0.797 0.609-1.383t1.406-0.586h18q0.797 0 1.406 0.586t0.609 1.383v14.016zM18.984 11.016v6h-7.969v-6h7.969z"></path>
+      </symbol>
+    </defs>
+  </svg>
+
+      </div>
+      <div class="modal-footer border-0">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-100 mt-5 carousel">
+  <picture class="carousel">
+<source media="(min-width: 768px)" srcset="../../../assets.stlrext/web/dnm/v7/80200/AAAhjdukdgjshuhs.ndjhggsg-bj.jpg">
+<img class="top-image mt-2 mt-md-4" src="../../../assets.stlrext/web/dnm/v7/80200/2ZNFu0hkSVtAI6LRWGIlCPNd1Tj.jpg" alt="Watch You Stralur Official Site">
+</picture>
+</div>
+<div class="container mt-3">
+<span class="h1 fw-bold display-3">YOU</span>
+<div class="d-flex justify-content-start">
+  <pre style="font-family: sans-serif; font-size: 11pt;">2018   3 Seasons   <small><span style="background: transparent; border: 1px solid #8C8A89; color: #ffffff; text-align: center; padding: 1px 4px;">18+</span></small>   Drama, Crime</i></pre> 
+</div>
+<p style="font-size: 15px;">A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.</p>
+<p><span class="grey">Starring:</span> Penn Badgley</p>
+<div class="mt-4">
+  <span class="fs-4 fw-normal lead">Videos</span><br>
+  <div class="d-flex"><p class="fs-5 display-5 fw-normal" style="margin-top: 6px;"><svg width="1" height="25"><line x1="0" y1="0" x2="0" y2="200" stroke="red" stroke-width="3" /></svg> <span class="mx-2">YOU</span></p></div>
+</div>
+<div class="trailers">
+  <div>
+<picture data-bs-toggle="modal" data-bs-target="#SLplayer" onclick="loading(), timeOut()" class="mx-2 carousel">
+  <img height="150" width="260" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABbs2Zv-7orJVyGbR_vKWvxpJNfXNhFsBDih3sG7Yj1ru-MuuQpMpHwfJQpOvLQSui2RAwlpCSd5284emX2N1maz6fxvqRp94lAIusK4qo8EAZKQyZvZD8NWv.jpg" alt="Watch You Season 4 Trailer">
+<button style="height: 40px; width: 40px; bottom: 25px; left: 8px; border: 0;" type="button" class="play-button position-absolute"></button>
+  </picture>
+ <p class="fs-5 mt-2 fw-normal">Season 2 Trailer 2: You</p>
+ </div>
+  <div><iframe class="mx-2" src="" style="background: url(../../../res/images/you/you12.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;" height="150" width="260" preload="none" autoplay="autoplay"></iframe>
+  <p class="fs-5 fw-normal">Season 3 Trailer: You</p>
+  </div>
+    <div>
+    <iframe class="mx-2" src="" height="150" width="260" style="background: url(../../../res/images/you/you2.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;" preload="none" autoplay="autoplay"></iframe>
+    <p class="fs-5 fw-normal">Season 2 Trailer: You</p>
+    </div>
+    <div>
+    <iframe class="mx-2" src="" height="150" width="260" style="background: url(../../../res/images/you/you4.jpg); background-size: 100%; background-repeat: no-repeat; background-position: center;" preload="none" autoplay="autoplay"></iframe>
+    <p class="fs-5 fw-normal">Season 1 Trailer: You</p>
+    </div>
+</div>
+
+<div class="mt-4">
+  <span class="fs-4 fw-normal lead">Episodes</span><br>
+  <div class="d-flex"><p class="fs-5 display-5 fw-normal" style="margin-top: 6px;"><svg width="1" height="25"><line x1="0" y1="0" x2="0" y2="200" stroke="red" stroke-width="3" /></svg> <span class="mx-2">YOU</span></p></div>
+</div>
+
+<nav>
+<div class="nav mb-3 d-flex" id="nav-tab">
+<div data-bs-toggle="dropdown" aria-expanded="false" class="w-100">
+<button type="button" class="season-button rounded-1 border-0 lead fw-normal black-background py-2 fs-5 w-100 d-flex justify-content-between align-text-center"><span>Season</span> <i class="fa-light fa-chevron-down red-text mt-1"></i></button>
+  </div>
+<ul class="dropdown-menu grey-background rounded-1 white-text lead fw-normal">
+  <li class="dropdown-header text-center p-0">Choose season</li>
+  <li class="dropdown-item text-current active season-button rounded-1" id="season-one-tab" data-bs-toggle="tab" data-bs-target="#season-one" role="tab" aria-controls="season-one" aria-selected="true"><span class="px-2">Season 1</span>
+  </li>
+  <li class="dropdown-item t text-current season-button rounded-1" id="season-two-tab" data-bs-toggle="tab" data-bs-target="#season-two" role="tab" aria-controls="season-two" aria-selected="false"><span class="px-2">Season 2</span>
+  </li>
+  <li class="dropdown-item t text-current season-button rounded-1" id="season-three-tab" data-bs-toggle="tab" data-bs-target="#season-three" role="tab" aria-controls="season-three" aria-selected="false"><span class="px-2">Season 3</span>
+  </li>
+  <li class="dropdown-item t text-current season-button rounded-1" id="season-four-tab" data-bs-toggle="tab" data-bs-target="#season-four" role="tab" aria-controls="season-four" aria-selected="false"><span class="px-2">Season 4</span>
+  </li>
+</ul>
+</div>
+</nav>
+
+
+<p class="mt-3 fw-bold" style="font-size: 13pt;">Release Year: 2018</p>
+<p style="font-size: 15px;">A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.
+</p>
+  <div class="mt-5"></div>
+        <div>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="season-one" role="tabpanel" aria-labelledby="season-one-tab">
+        <div class="album mx-1">
+            
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-md-3">
+                        <div class="col">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABbs2Zv-7orJVyGbR_vKWvxpJNfXNhFsBDih3sG7Yj1ru-MuuQpMpHwfJQpOvLQSui2RAwlpCSd5284emX2N1maz6fxvqRp94lAIusK4qo8EAZKQyZvZD8NWv.jpg" alt="Watch Episode 1 of Season 1"></figure>
+                          <h6 class="fw-bold">1. Pilot
+                          </h6>
+                          <p class="card-text text-start">
+                            A charming first encounter quickly turns into something more nefarious when bookstore manager Joe takes a very strong liking to grad student Beck.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABa1yw6w6xHisvp_3W0EswU--SSkI91hDjA7hiUlMuYHo1xo4AJfdbSWzaRACXDkTtm42ICz-hoJzrKJ-EyrWGBvW1aqYu2p-mlW4aSw3D5XQA-fcMR82zH1M.jpg" alt="Watch Episode 2 of Season 1"></figure>
+                          <h6 class="fw-bold">2. The Last Nice Guy in New York
+                          </h6>
+                          <p class="card-text text-start">
+                            Beck and Joe have a real date! Joe does everything he can to win Beck over, but she's stuck on her ex, Benji. Benji isn't good for Beck. How far will Joe go to keep Benji out of Beck's equation?
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABT4lySP258UO4kgyghOiEfZSFUnmTV64axKy3hjhhGE9Fddlx6xKqzNH_jE4tvHGVl3VBLCD6ldWf8aNtUXsWWaXTpPpMpFzaVN-lTHurHSb6iS7kJ2Eo0Yw.jpg" alt="Watch Episode 3 of Season 1"></figure>
+                          <h6 class="fw-bold">3. Maybe</h6>
+                          <p class="card-text text-start">
+                            Beck isn't certain that Joe is The One, so he sets out to prove he's boyfriend material; balancing this important time in their blossoming relationship with the tricky maneuvers he's been pulling behind the scenes proves challenging for Joe.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABbVg0XVVihClGBdJVRRqc57eVdl5e9v-Ao6bf3WQ3YiY6RCvoa9o1u_kAuV47G0dNXUH08zX7fs1LwDIbaoENtPCdtBiekIhhuvUZts4NXhuCYiCzezJpT3-.jpg" alt="Watch Episode 4 of Season 1"></figure>
+                          <h6 class="fw-bold">4. The Captain</h6>
+                          <p class="card-text text-start">
+                            Beck heads out of town to rendezvous with the man she's been texting; Joe follows and is shocked by what he finds; Beck realizes she and Joe are going to have to bring a scary level of truth and authenticity to their connection.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABbQ_BbQUPeJ2iPusM-jHT0J8kDY-n54p82P75A1LiL-m23eAKMNHnR2cD3HySYYAyh4PNWRqU6K1ZovK26Hq1QS4k71324nfOuPNJxKbTV3dyaLczATd25eB.jpg" alt="Watch Episode 5 of Season 1"></figure>
+                          <h6 class="fw-bold">5. Living with the Enemy
+                          </h6>
+                          <p class="card-text text-start">
+                            Joe and Beck's fledgling relationship is tested by the increasingly intrusive meddling of Beck's friend Peach; Joe does everything in his power to solve his Peach problem without making a mess.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABa6iJ5qyPTN01oriI-5UVGSihXPqAoDY1m9V9QLFJlGni9UihBMhWy3h6lFzwyBfy4nhGPsFTSuxW6ErvmY4aOJhqArb9HWd-UJ6S9W5GK7UFCkRk4z7qSUr.jpg" alt="Watch Episode 6 of Season 1"></figure>
+                          <h6 class="fw-bold">6. Amour Fou
+                          </h6>
+                          <p class="card-text text-start">
+                            Joe's devotion to Beck takes him to a lavish but eerily remote summer home and a face-to-face encounter with an equally obsessed adversary who is just as intent on possessing her heart.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABexYMAaKUqWmMiNUSoRDEReIpi1eK3n3xst0GVMDAc9p8FHAlDWGOLgXBAZEFjNhfFq5kNHF8M670xyZrFy3YNUIMf1gYiBpxwSCr88ztpdSMwRIIM8d_lGQ.jpg" alt="Watch Episode 7 of Season 1"></figure>
+                          <h6 class="fw-bold">7. Everythingship
+                          </h6>
+                          <p class="card-text text-start">
+                            Beck suffers a loss and Joe is right there with a shoulder to lean on. But he can't quite shake the worry and jealousy he still feels. He goes to creative lengths to explore his fears, even creating a fake identity.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABfvtx5AM1D2_v06wh-EwqmZrl4SjXpJZsesePcVT3RpBLmDNNh1R30sgLZ4_1-H8fa6EP0MyKt7xRNKS-wi_yT0Czxi3r80YkJKXb1kqhtKUBl6Lz20RTa_3.jpg" alt="Watch Episode 8 of Season 1"></figure>
+                          <h6 class="fw-bold">8. You Got Me Babe
+                          </h6>
+                          <p class="card-text text-start">
+                            Joe and Beck's lives have taken very different turns. On paper, each is doing great. A chance encounter brings every possibility to the surface and must decide which way their want their story to go.
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABdmuhOu7s4YdKE1rlyfcbS-H5Fc7hco70kBaECEmBzhMo3fiwkho2AOPMEBIuiX0L3X_arBiiClgropF0Z7bylLpZwPW5jZ9axYLpK1-Nkq7wdkGQ_EfHBS9.jpg" alt="Watch Episode 9 of Season 1"></figure>
+                          <h6 class="fw-bold">9. Candace
+                          </h6>
+                          <p class="card-text text-start">
+                            Beck can't shake the feeling that there's more to the story of Joe's lost former love, Candace. Determined to find out the truth, it's Beck's turn to go to shocking lengths to dig up the truth on Joe. But she might have gone too far.
+            
+            
+                          </p>
+                        </div>
+                        <div class="col mt-3">
+                          <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABcr8XQt62YBC01mM-oVOpmPdMZbhx65RrP9YvubnD7ChM6stm94BEDJQfYXT0qWdVBSyNupLQGZ0Ev1Eh3my2Dhw-qVas8MLQkw68b2G2DC07yybezPAfAzb.jpg" alt="Watch Episode 10 of Season 1"></figure>
+                          <h6 class="fw-bold">10. Bluebeard's Castle
+                          </h6>
+                          <p class="card-text text-start">
+                            Beck's deepest truths are revealed; Joe pushes the limits of what he'll do for love.
+                          </p>
+                        </div>
+            
+                      </div>
+                    </div>
+          </div>
+          <div class="tab-pane fade" id="season-two" role="tabpanel" aria-labelledby="season-two-tab">
+        <div class="album mx-1">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-md-3">
+            <div class="col">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABdNSzTkbzDyoXDvvhsEI30L0l40Ljt74kkaBseisoQAybORahJOuFBiy2ohL3F8wJNvJWTMywnGIS0oMpu7UiR38CFL2GcKZRhpKpuQ1wMUCPwBPTcq9N9YS.jpg" alt="Watch Episode 1 of Season 1"></figure>
+              <h6 class="fw-bold">1. Pilot
+              </h6>
+              <p class="card-text text-start">
+                A charming first encounter quickly turns into something more nefarious when bookstore manager Joe takes a very strong liking to grad student Beck.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABZzMcLqCXaoIIGdgzVatOnOPj9e3hxLqDkJRL0p5N4kjT8nKAOfcJ8tSDyX2s7JXtXVC2H8t0-nMXlelBH2ONI5YKJH94dcYFCDX1icBOaRgAAER5tVEk5lO.jpg" alt="Watch Episode 2 of Season 1"></figure>
+              <h6 class="fw-bold">2. The Last Nice Guy in New York
+              </h6>
+              <p class="card-text text-start">
+                Beck and Joe have a real date! Joe does everything he can to win Beck over, but she's stuck on her ex, Benji. Benji isn't good for Beck. How far will Joe go to keep Benji out of Beck's equation?
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABZHlmjE8OvdQ3YEFUO8WNTdSjI5DgYbPooREzAkUoSTHYrvxEtGeBdkNMW6Zcoxry6HF_g2lwUxu9w0h5ih6lV_3hkw1s_hOjIwof1r-KxSf1wHDxI2oxn-r.jpg" alt="Watch Episode 3 of Season 1"></figure>
+              <h6 class="fw-bold">3. Maybe</h6>
+              <p class="card-text text-start">
+                Beck isn't certain that Joe is The One, so he sets out to prove he's boyfriend material; balancing this important time in their blossoming relationship with the tricky maneuvers he's been pulling behind the scenes proves challenging for Joe.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABVe4DXaTL2ZN7u8xqn3m8B_gq9fV9bY7004GrlOYZ4PA22AfMBMRxprf8vyUkRtPmgVb8Bnbb7dOEMeIrC-lpFeamEfsaFN-fvhAUzDxjGDvCT5wL4Q6hLqP.jpg" alt="Watch Episode 4 of Season 1"></figure>
+              <h6 class="fw-bold">4. The Captain</h6>
+              <p class="card-text text-start">
+                Beck heads out of town to rendezvous with the man she's been texting; Joe follows and is shocked by what he finds; Beck realizes she and Joe are going to have to bring a scary level of truth and authenticity to their connection.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABYL2HmNWTek_v--cyCPi_HChibdlzTxNS0agLMrPx55LguExH8p5gXHuDbVbWUyfpqy19qle5-FMnIC6Oc0v1jZ_89LTj5MqfsoPFdFRAwtLMUiBpm9P90rG.jpg" alt="Watch Episode 5 of Season 1"></figure>
+              <h6 class="fw-bold">5. Living with the Enemy
+              </h6>
+              <p class="card-text text-start">
+                Joe and Beck's fledgling relationship is tested by the increasingly intrusive meddling of Beck's friend Peach; Joe does everything in his power to solve his Peach problem without making a mess.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABYqlb_pE2LWp3XZqXN4IW3UYtxjXsKxzfsGGc1kstT-tcEMUn5HiplZmp6-YAmnLRmzgySmXSQOYpJm3gzm_pGCS3LGJqfMbZ_WtST2G_6KQGl1AMmv3fFW_.jpg" alt="Watch Episode 6 of Season 1"></figure>
+              <h6 class="fw-bold">6. Amour Fou
+              </h6>
+              <p class="card-text text-start">
+                Joe's devotion to Beck takes him to a lavish but eerily remote summer home and a face-to-face encounter with an equally obsessed adversary who is just as intent on possessing her heart.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABXZv43iNdLp03Qni4aWaw_05JWKFh2SnrOAv9A4BO-jUawsiTnrzWP66Wf7XqZYnPz59IfO-3-tbYSui3VaxMBNQCuVexVptfhPXD1xwk_0LexCUaOhmZ6ML.jpg" alt="Watch Episode 7 of Season 1"></figure>
+              <h6 class="fw-bold">7. Everythingship
+              </h6>
+              <p class="card-text text-start">
+                Beck suffers a loss and Joe is right there with a shoulder to lean on. But he can't quite shake the worry and jealousy he still feels. He goes to creative lengths to explore his fears, even creating a fake identity.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABZ4kCuZFHOHbGJhrLncGV1h4L-91Or3GrU9UN6BPIPNgNVt8BbtD1AArndyBq-ABSXYpiX2BXYNfmP_DPeqWtogSgjdx9YQ9DN4ighqyG2sHdHd688K9saS3.jpg" alt="Watch Episode 8 of Season 1"></figure>
+              <h6 class="fw-bold">8. You Got Me Babe
+              </h6>
+              <p class="card-text text-start">
+                Joe and Beck's lives have taken very different turns. On paper, each is doing great. A chance encounter brings every possibility to the surface and must decide which way their want their story to go.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABXZv43iNdLp03Qni4aWaw_05JWKFh2SnrOAv9A4BO-jUawsiTnrzWP66Wf7XqZYnPz59IfO-3-tbYSui3VaxMBNQCuVexVptfhPXD1xwk_0LexCUaOhmZ6ML.jpg" alt="Watch Episode 9 of Season 1"></figure>
+              <h6 class="fw-bold">9. Candace
+              </h6>
+              <p class="card-text text-start">
+                Beck can't shake the feeling that there's more to the story of Joe's lost former love, Candace. Determined to find out the truth, it's Beck's turn to go to shocking lengths to dig up the truth on Joe. But she might have gone too far.
+
+
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABY1iDpZeyZDSMNyrlPxN5VnwzxjaMTMW1OQUY3oWi3eEcX0G-84JypcQqj-r2r9E5c22rXmIl25vvOrVgfGKJ8r2SPVixvcOJyNV6cmfSgEoPoPCO8md8NX-.jpg" alt="Watch Episode 10 of Season 1"></figure>
+              <h6 class="fw-bold">10. Bluebeard's Castle
+              </h6>
+              <p class="card-text text-start">
+                Beck's deepest truths are revealed; Joe pushes the limits of what he'll do for love.
+              </p>
+            </div>
+
+          </div>
+        </div>
+          </div>
+          <div class="tab-pane fade" id="season-three" role="tabpanel" aria-labelledby="season-three-tab">
+        <div class="album mx-1">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-md-3">
+            <div class="col">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABU4HsNBfdqmU4jEsuV6q4uygcBw_9J5-giWEQPBPMCMIuovT1Pk97jdGpc4gtWktfLge8be6iM58qxwA0SDpXEclX_L5g4fly2axCVWg-Z4w-5yxfUzOW4_T.jpg" alt="Watch Episode 1 of Season 1"></figure>
+              <h6 class="fw-bold">1. Pilot
+              </h6>
+              <p class="card-text text-start">
+                A charming first encounter quickly turns into something more nefarious when bookstore manager Joe takes a very strong liking to grad student Beck.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABTItQRuvdzOzqBLwyoICdLcRY8G2TvWo1k5ITVJYicWd7W5Nh1tGa_JUCTcAqVyafo1h2Kqx0KAnxw7dEs1Uu8vET8waeYlfu9Kf5cJd0UmJVp1KvTTUk1hp.jpg" alt="Watch Episode 2 of Season 1"></figure>
+              <h6 class="fw-bold">2. The Last Nice Guy in New York
+              </h6>
+              <p class="card-text text-start">
+                Beck and Joe have a real date! Joe does everything he can to win Beck over, but she's stuck on her ex, Benji. Benji isn't good for Beck. How far will Joe go to keep Benji out of Beck's equation?
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABYb00IEQlU1t8TAy2NbHKibT-_0Wngb93OtWRTTSHJVtQm44U07BDLJ9jSTaz7BPbqKxXIpKBmgV8Qt2nsaQFJRAvkwZ8Yjajh8E-BwtAGoBe5ppvj8fhXzu.jpg" alt="Watch Episode 3 of Season 1"></figure>
+              <h6 class="fw-bold">3. Maybe</h6>
+              <p class="card-text text-start">
+                Beck isn't certain that Joe is The One, so he sets out to prove he's boyfriend material; balancing this important time in their blossoming relationship with the tricky maneuvers he's been pulling behind the scenes proves challenging for Joe.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABdt0x_YjiAZ80SHN9hDqg2R1r-89j3GzjRLuWOZ0f0uTskkpdiD9dn2uAoeFUhbWLMhqRVbUFRyuXp7bjm5zXwWq5-SYaxemrE_iPz6FkEVQkPh8C4z388Of.jpg" alt="Watch Episode 4 of Season 1"></figure>
+              <h6 class="fw-bold">4. The Captain</h6>
+              <p class="card-text text-start">
+                Beck heads out of town to rendezvous with the man she's been texting; Joe follows and is shocked by what he finds; Beck realizes she and Joe are going to have to bring a scary level of truth and authenticity to their connection.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABf9nXCj2hciZJ3gRZYs7GLLlGYSzDOpLDvHt7R2uSY-JtNuXPwmaF1NHSFaTjISOHoxWhHr4fSAHCxlXRwqPtMr5au33DBK0GQODn6l_5Fnr7t8eGgTXv8t9.jpg" alt="Watch Episode 5 of Season 1"></figure>
+              <h6 class="fw-bold">5. Living with the Enemy
+              </h6>
+              <p class="card-text text-start">
+                Joe and Beck's fledgling relationship is tested by the increasingly intrusive meddling of Beck's friend Peach; Joe does everything in his power to solve his Peach problem without making a mess.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABSaGucMzxm16ZjD2QLzfd7Re3lbsOv-dIG01hYdkOOWJNbmVT9o7SrazO2D8wV9lYuwVjvTFz_ITniXC8mjQxkluZ-xgyGZuYvaOBGWvqPlG3f6wrZiTLISo.jpg" alt="Watch Episode 6 of Season 1"></figure>
+              <h6 class="fw-bold">6. Amour Fou
+              </h6>
+              <p class="card-text text-start">
+                Joe's devotion to Beck takes him to a lavish but eerily remote summer home and a face-to-face encounter with an equally obsessed adversary who is just as intent on possessing her heart.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABZbRlFaJTJjpCjC5VPL1lTjJCDRcrCb4msXQlXa28ah0e0NNWgJ3p_ngEL44I_ahK1XqnQKKWV0Az_QjVNTCR5lOkbSmhFevAMUfBBQc_riE4NYVtQzpeDY0.jpg" alt="Watch Episode 7 of Season 1"></figure>
+              <h6 class="fw-bold">7. Everythingship
+              </h6>
+              <p class="card-text text-start">
+                Beck suffers a loss and Joe is right there with a shoulder to lean on. But he can't quite shake the worry and jealousy he still feels. He goes to creative lengths to explore his fears, even creating a fake identity.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABT4J80tw4pyvCm40cY70MPwBatFaw-wV4aVsI8pWsUWGBXDiElsWrVT7Uf-7d26Zx5zJzPDhnaEr5ItKnRFWlD4OBlyFH5WTOHs3AeskpTsvJx4dXLeWr08T.jpg" alt="Watch Episode 8 of Season 1"></figure>
+              <h6 class="fw-bold">8. You Got Me Babe
+              </h6>
+              <p class="card-text text-start">
+                Joe and Beck's lives have taken very different turns. On paper, each is doing great. A chance encounter brings every possibility to the surface and must decide which way their want their story to go.
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABTAFASvDdrxWXra9H3YfBnUiRTakwHR9ofN7_MstzRXh4oI_oYElDOZi5X63SykYJb1bPde8HSa6pv401UpasSwufS4FmahfFXLgovLloHS52XnIml-wRQ0s.jpg" alt="Watch Episode 9 of Season 1"></figure>
+              <h6 class="fw-bold">9. Candace
+              </h6>
+              <p class="card-text text-start">
+                Beck can't shake the feeling that there's more to the story of Joe's lost former love, Candace. Determined to find out the truth, it's Beck's turn to go to shocking lengths to dig up the truth on Joe. But she might have gone too far.
+
+
+              </p>
+            </div>
+            <div class="col mt-3">
+              <figure><img class="video" src="../../../assets.stlrext/web/dnm/v7/80200/AAAABYvzc5YAlSHFGlbdgFFKSIX9LWxpiBlC2h_fzJ3ewaMlrUlvzotc5--oKh-H_GE5r6DdDGDY-Eo8XtGeltPqUHjFPkIPY03iAhXHtaaIm0XNR0eAuVoS0Yl6.jpg" alt="Watch Episode 10 of Season 1"></figure>
+              <h6 class="fw-bold">10. Bluebeard's Castle
+              </h6>
+              <p class="card-text text-start">
+                Beck's deepest truths are revealed; Joe pushes the limits of what he'll do for love.
+              </p>
+            </div>
+
+          </div>
+        </div>
+          </div>
+        </div>
+        </div>
+
+
+<h5 class="other-info mt-5"></h5>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3">
+ <div class="col">
+<a href="" class="mt-1 info-link-1">
+  <span class=" fw-normal lead white-link info-heading-1"></span>
+  <br>
+  <p class="text-decoration-none half-white-text fs-12 info-synopsis-1"></p>
+</a>
+</div>
+ <div class="col">
+<a href="" class="mt-1 info-link-2">
+  <span class=" fw-normal lead white-link info-heading-2"></span>
+  <br>
+  <p class="text-decoration-none half-white-text fs-12 info-synopsis-2"></p>
+</a>
+</div>
+ <div class="col">
+   <a href="" class="mt-1 info-link-3">
+     <span class=" fw-normal lead white-link info-heading-3"></span>
+     <br>
+     <p class="text-decoration-none half-white-text fs-12 info-synopsis-3"></p>
+   </a>
+ </div>
+  <div class="col">
+  <a href="" class="mt-1 info-link-4">
+      <span class=" fw-normal lead white-link info-heading-4"></span>
+      <br>
+      <p class="text-decoration-none half-white-text fs-12 info-synopsis-4"></p>
+    </a>
+  </div>
+ <div class="col">
+   <a href="" class="mt-1 info-link-5">
+     <span class=" fw-normal lead white-link info-heading-5"></span>
+     <br>
+     <p class="text-decoration-none half-white-text fs-12 info-synopsis-5"></p>
+   </a>
+ </div>
+ <div class="col">
+   <a href="" class="mt-1 info-link-6">
+     <span class=" fw-normal lead white-link info-heading-6"></span>
+     <br>
+     <p class="text-decoration-none half-white-text fs-12 info-synopsis-6"></p>
+   </a>
+ </div>
+ <div class="col">
+   <a href="" class="mt-1 info-link-7">
+     <span class=" fw-normal lead white-link info-heading-7"></span>
+     <br>
+     <p class="text-decoration-none half-white-text fs-12 info-synopsis-7"></p>
+   </a>
+ </div>
+ <div class="col">
+   <a href="" class="mt-1 info-link-8">
+     <span class=" fw-normal lead white-link info-heading-8"></span>
+     <br>
+     <p class="text-decoration-none half-white-text fs-12 info-synopsis-8"></p>
+   </a>
+ </div>
+ </div>
+
+<p class="mt-5">
+  <a href="../../categories/drama.html" class="text-decoration-none t text-light fw-bold">
+    <h5 class="category">More Like You <i class="fa-solid fa-angle-right w" style="font-size: 20px; color: red;"></i>
+ </a>
+  </h5>
+  </p>
+      <div class="mt-2 mb-5">
+      <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3">
+        <div class="col">
+     <a href="" class="drama-link-1">
+      <img class="h-100 w-100 drama-1">
+    </a>
+    </div>
+    <div class="col">
+     <a href="" class="drama-link-2">
+      <img class="h-100 w-100 drama-2">
+    </a>
+        </div>
+    <div class="col">
+     <a href="" class="drama-link-3">
+      <img class="h-100 w-100 drama-3">
+    </a>
+        </div>
+    <div class="col">
+     <a href="" class="drama-link-4">
+      <img class="h-100 w-100 drama-4">
+    </a>
+        </div>
+  <div class="col">
+   <a href="" class="drama-link-5">
+   <img class="h-100 w-100 drama-5">
+      </a>
+    </div>
+    <div class="col">
+      <a href="" class="drama-link-6">
+        <img class="h-100 w-100 drama-6">
+      </a>
+    </div>
+    <div class="col">
+      <a href="" class="drama-link-7">
+        <img class="h-100 w-100 drama-7">
+      </a>
+    </div>
+    <div class="col">
+      <a href="" class="drama-link-8">
+        <img class="h-100 w-100 drama-8">
+      </a>
+    </div>
+    <div class="col">
+      <a href="" class="drama-link-9">
+        <img class="h-100 w-100 drama-9">
+      </a>
+    </div>
+    <div class="col">
+          <a href="" class="drama-link-10">
+            <img class="h-100 w-100 drama-10">
+          </a>
+        </div>
+    <div class="col">
+      <a href="" class="drama-link-11">
+        <img class="h-100 w-100 drama-11">
+      </a>
+    </div>
+    <div class="col">
+      <a href="" class="drama-link-12">
+        <img class="h-100 w-100 drama-12">
+      </a>
+    </div>
+      </div>
+      </div>
+  </div>
+
+
+
+<div class="mb-5"></div>
+</div>
+</main>
+
+
+  <footer class="text-center mb-3 mt-4 d-md-none">
+<a href="../../help.center/legal.notices.member/terms.of.service.html"><button class="half-white-link fw-bold fs-6" style="background: none; border: 0px;">Terms of Service</button></a>
+<a href="../../help.center/legal.notices.member/privacy.html">
+<button class="half-white-link fw-bold fs-6" style="background: none; border: 0px;">Privacy</button></a>
+<br>
+<a href="../../help.center/legal.notices.member/policy.html">
+  <button class="half-white-link fw-bold fs-6" style="background: none; border: 0px;">Data Policy</button></a>
+  <a href="../../help.center/legal.notices.member/about.html"><button class="half-white-link fw-bold fs-6" style="background: none; border: 0px;">Corporate Information</button></a>
+  </footer>
+
+
+
+<div class="mt-4 mb-2 mx-md-4 d-none d-md-inline">
+  <footer class="py-5">
+    <div class="row container">
+    <div class="d-flex flex-column flex-sm-row">
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a href="https://twitter.com/stralur?t=PnBFN33WtYPsd-fyT1f5hg&s=09" target="_blank" class="link-dark">
+                  <i class="socials fab fa-twitter twitter"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a href="https://instagram.com/stralurinc?igshid=YmMyMTA2M2Y=" target="_blank" class="link-dark">
+                  <i class="socials fab fa-instagram instagram"></i>
+                </a>
+              </li>
+              <li class="ms-3">
+                <a href="https://www.youtube.com/@stralur" class="link-dark" target="_blank">
+                  <i class="socials fab fa-youtube youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+      <div class="col-6 col-md-3 text-start">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../../help.center/legal.notices.member/terms.of.service.html" class="p-0 lined-link">Terms Of Service</a></li>
+          <li class="nav-item mb-2"><a href="../../help.center/legal.notices.member/about.html" class="p-0 lined-link">Corporate Information</a></li>
+          <li class="nav-item mb-2"><a href="../../help.center/legal.notices.member/privacy.html" class="p-0 lined-link">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 text-start">
+<ul class="nav flex-column">
+   <li class="nav-item mb-2"><a href="../../help.center/help.member/help.html" class="p-0 lined-link">Help Center</a></li>
+<li class="nav-item mb-2"><a href="../../help.center/help.member/faqs.html" class="p-0 lined-link">FAQ's</a></li>
+<li class="nav-item mb-2"><a href="../../help.center/help.member/jobs.html" class="p-0 lined-link">Jobs</a></li>
+</ul>
+</div>
+
+
+
+      <div class="col-6 col-md-3 text-start">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../../help.center/legal.notices.member/policy.html" class="p-0 lined-link">Data Policy</a></li>
+          <li class="nav-item mb-2"><a href="../tvshows.html" class="p-0 lined-link">Tv Shows</a></li>
+          <li class="nav-item mb-2"><a href="../../categories/index.html" class="p-0 lined-link">categories</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 text-start">
+  <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="../../help.center/help.member/contactus.html" class="p-0 lined-link">Contact Us</a></li>
+   <li class="nav-item mb-2"><a href="../../help.center/help.member/reportbugs.html" class="p-0 lined-link">Report Bugs</a></li>
+<li class="nav-item mb-2"><a href="mailto:m6253272@gmail.com@?subject=Feedback&body=Message" target="_blank" class="p-0 lined-link">Feedback</a></li>
+     </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+  <a href="#" style="bottom: 5px; right: 15px; position: fixed; z-index: 2;"><i class="fa-solid fa-sort-up" style="color: red; font-size: 40px; padding: 0 5px 0 5px"></i></a>
+
+<script>
+(function(){
+  "use strict";
+     (function () {
+          var UA = navigator.userAgent.toLowerCase();
+          if (UA.indexOf("android") > -1 || UA.indexOf("ipad") > -1 || UA.indexOf("iphone") > -1 || UA.indexOf("ipod") > -1 || UA.indexOf("windows phone") > -1) {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+          else if (UA.indexOf("chrome") > -1 || UA.indexOf("firefox") > -1)
+          {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.xl.html";
+            })();
+          }
+          else {
+            (function() {
+              const el = document.querySelector("a.homepage");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+        })();
+ (function () {
+          var UA = navigator.userAgent.toLowerCase();
+          if (UA.indexOf("android") > -1 || UA.indexOf("ipad") > -1 || UA.indexOf("iphone") > -1 || UA.indexOf("ipod") > -1 || UA.indexOf("windows phone") > -1) {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+          else if (UA.indexOf("chrome") > -1 || UA.indexOf("firefox") > -1)
+          {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "../../browse/browse.xl.html";
+            })();
+          }
+          else {
+            (function() {
+              const el = document.querySelector("a.navigator");
+              el.href = "../../browse/browse.html";
+            })();
+          }
+        })();
+})();
+</script>
+<script src="../../../assets.stlrext/web/SLplayer/index.js"></script>
+<script src="../title.js"></script>
+<script src="../../../assets.stlrext/web/siteui/jpt/bootstrap.bundle.min.js"></script>
+  <script src="../../../assets.stlrext/web/siteui/jpt/main.js"></script>
+  <script src="../../categories/categories.js"></script>
+  <script src="../../../assets.stlrext/web/siteui/jpt/series.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.trailers {
+  overflow-x: auto;
+  display: flex;
+  margin: 0 4px 0 4px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.season-button {
+  max-width: 300px;
+}
+
+.video{
+  width: 100%;
+  height: 100%;
+}
